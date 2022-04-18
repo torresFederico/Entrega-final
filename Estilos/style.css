@@ -15,12 +15,7 @@ li {
     list-style: none;
   }
 
-/* inicio INDEX */
 
-body{
-    display: grid;
-    grid-template-rows: 80px auto 80px;
-}
 
 /* INICIO HEADER */
 
@@ -141,11 +136,36 @@ header #header__menu--itemGallery ul {
     
 /* FIN HEADER */
 
+/* INICIO FOOTER */
+
+footer{
+    background-color: #001a30;
+    background: linear-gradient(90deg, rgba(0,26,48,1) 0%, rgba(0,0,0,0.9920343137254902) 96%);
+    color: whitesmoke;
+}
+
+.contenedorRedes {
+    justify-content: space-evenly;
+    padding: 1rem;
+    text-align: center;
+    margin-left: -30px;
+}
+
+/* FIN FOOTER */
+
+/* inicio INDEX */
+
+body{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+}
+
 main{
     background-color: #001a30;
     background-image: url(../Multimedia/images/1181884.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 section.containerUno {
@@ -209,20 +229,6 @@ section.containerDos article.item {
     width: 100%;
 }
 
-/* footer */
-
-footer{
-    background-color: #001a30;
-    background: linear-gradient(90deg, rgba(0,26,48,1) 0%, rgba(0,0,0,0.9920343137254902) 96%);
-    color: whitesmoke;
-}
-
-.contenedorRedes {
-    justify-content: space-evenly;
-    padding: 1rem;
-    text-align: center;
-    margin-left: -30px;
-}
 
 /* Media queries */
 /* tablet */
@@ -259,7 +265,7 @@ footer{
     justify-content: start;
     align-items: center;
     padding: 10px;
-    min-height: 100vh;
+    height: auto;
     padding-top: 30px;
 }
 
@@ -271,17 +277,28 @@ footer{
 
 .historyContainer .historyItems{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
     text-shadow: 1px 1px 0px black;
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
 #historyPhoto{
     max-width: 500px;
     max-height: 500px;
     margin: 1rem;
+}
+
+@media screen and (min-width: 768px){
+    .historyContainer{
+        height: 100vh;
+    }
+
+    .historyContainer .historyItems{
+        flex-direction: row-reverse;
+    }
 }
 
 /* fin HISTORY */
@@ -293,7 +310,7 @@ footer{
     justify-content: start;
     align-items: center;
     padding: 10px;
-    min-height: 100vh;
+    height: auto;
     padding-top: 30px;
 }
 
@@ -322,7 +339,7 @@ footer{
     justify-content: start;
     align-items: center;
     padding: 10px;
-    min-height: 100vh;
+    height: auto;
     padding-top: 30px;
 }
 
@@ -348,6 +365,7 @@ footer{
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    height: 100vh;
 }
 
 .shopContainer h1{
