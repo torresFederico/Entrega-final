@@ -1,0 +1,14 @@
+Pasé todo mi css a scss para acomodar mas el trabajo
+
+*SEO:
+
+-Apliqué palabras clave (keywords)
+-Agregué una descripción
+
+*Maps: utilicé el map y map-get para el nav (_header.scss, linea 81 a 91)
+
+*Extend: lo utilicé en el index para extender las propiedades de #mv33 a #cp11
+
+*Mixin: Hice un mixin para modificar el width y height en el header y luego lo apliqué a varias etiquetas.
+
+NOTA: Mi prioridad ahora fue pasar todo a scss para poder tener un trabajo mas limpio y organizado. A partir de ahora voy a empezar a darle los toques finales para la ultima preentrega teniendo en cuenta todas tus recomendaciones, las de Ale, y varias ideas que fui teniendo pero que aun no habia podido aplicar por falta de tiempo.

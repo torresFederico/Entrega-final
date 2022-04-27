@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+	color: whitesmoke;
+	font-weight: bold;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'history';
+@import 'races';
+@import 'drivers';
+@import 'shop';

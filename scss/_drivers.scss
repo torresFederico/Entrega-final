@@ -1,0 +1,31 @@
+
+/* +++++++++++++++++> */
+/* inicio DRIVERS */
+/* +++++++++++++++++> */
+
+.driversContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    height: auto;
+    padding-top: 30px;
+  
+    h1 {
+      text-align: center;
+      color: red;
+      text-shadow: 1px 1px 0px white;
+    }
+  
+    .driversItems {
+      color: white;
+      text-shadow: 1px 1px 0px black;
+      margin-top: 70px;
+    }
+  }
+  
+  /* +++++++++++++++++> */
+  /* fin DRIVERS */
+  /* +++++++++++++++++> */
+  

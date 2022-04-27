@@ -1,0 +1,82 @@
+
+/* +++++++++++++++++> */
+/* inicio INDEX */
+/* +++++++++++++++++> */
+
+body{
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+}
+
+main{
+    background-color: $colorPrincipal;
+    background-image: url(../Multimedia/images/1181884.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+section.containerUno {
+    display: flex;
+    flex-direction: column;
+}
+
+article.item {
+    height: 250px;
+    width: 250px;
+    padding: 30px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.containerUno article.item {
+    width: 100%;
+}
+
+section.containerDos article.item {
+    width: 100%;
+}
+
+main h2{
+    color: red;
+    text-shadow: 1px 1px 0px white;
+}
+
+/* numeros pilotos */
+
+#mv33{
+    max-width: 100px;
+    max-height: 100px;
+    margin: 1rem;
+}
+
+#cp11{
+    @extend #mv33;
+}
+
+/* animaciones */
+
+.mainIndex .containerUno .item:hover{
+    transform: scale(0.93);
+    transition: all 0.3s ease-in;
+}
+
+.mainIndex .containerDos .item:hover{
+    transform: scale(0.93);
+    transition: all 0.3s ease-in;
+}
+
+
+section.containerDos {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* +++++++++++++++++> */
+/* FIN HEADER */
+/* +++++++++++++++++> */
