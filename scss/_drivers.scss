@@ -4,6 +4,8 @@
 /* +++++++++++++++++> */
 
 .driversContainer {
+    background-color: $colorPrincipal;
+    background: linear-gradient(90deg, rgba(0, 26, 48, 1) 0%, rgba(0, 0, 0, 0.9920343137) 96%);
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -15,13 +17,54 @@
     h1 {
       text-align: center;
       color: red;
-      text-shadow: 1px 1px 0px white;
+      text-shadow: 0.5px 0.5px 0px white;
+      font-size: x-large;
+    }
+
+    #mvycp{
+      margin-top: 30px;
+      width: 400px;
+      height: 250px;
     }
   
-    .driversItems {
+    .driversItems{
       color: white;
-      text-shadow: 1px 1px 0px black;
-      margin-top: 70px;
+      h3 {
+        color: red;
+        text-shadow: 0.5px 0.5px 0px white;
+        margin-top: 70px;
+        font-size: x-large;
+      }
+      h4 {
+        color: red;
+        text-shadow: 0.5px 0.5px 0px white;
+        margin-top: 40px;
+      }
+      .maxStats{
+        li{
+          font-size: medium;
+        }
+      }
+      .checoStats{
+        li{
+          font-size: medium;
+        }
+      }
+    } 
+  }
+
+  /* media */
+
+  @media screen and (min-width: 768px){
+    .driversContainer{
+      #mvycp{
+        width: 700px;
+        height: 500px;
+      }
+      .driversItems{
+        width: 50%;
+        height: 50%;
+      }
     }
   }
   
