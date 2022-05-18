@@ -30,6 +30,7 @@
       text-shadow: 1px 1px 0px black;
       margin: 50px;
       margin-top: 50px;
+      width: 60%;
     }
   }
   
@@ -41,10 +42,11 @@
   
   @media screen and (min-width: 768px) {
     .historyContainer {
-      height: auto;
+      height: 90vh;
   
       .historyItems {
         flex-direction: row-reverse;
+        width: auto;
       }
     }
 

@@ -18,7 +18,6 @@
       text-align: center;
       color: red;
       text-shadow: 0.5px 0.5px 0px white;
-      font-size: x-large;
     }
 
     #mvycp{
@@ -29,6 +28,7 @@
   
     .driversItems{
       color: white;
+      width: 60%;
       h3 {
         color: red;
         text-shadow: 0.5px 0.5px 0px white;
@@ -39,15 +39,20 @@
         color: red;
         text-shadow: 0.5px 0.5px 0px white;
         margin-top: 40px;
+        text-align: center;
       }
       .maxStats{
         li{
           font-size: medium;
+          text-align: center;
+          padding-right: 40px;
         }
       }
       .checoStats{
         li{
           font-size: medium;
+          text-align: center;
+          padding-right: 40px;
         }
       }
     } 

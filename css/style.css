@@ -127,7 +127,8 @@ header #header__menu--itemGallery ul {
 footer {
   background-color: #001a30;
   background: linear-gradient(90deg, #001a30 0%, rgba(0, 0, 0, 0.992034) 96%);
-  color: whitesmoke; }
+  color: whitesmoke;
+  height: 12vh; }
 
 .contenedorRedes {
   justify-content: space-evenly;
@@ -224,7 +225,8 @@ section.containerDos {
     text-decoration: solid black;
     text-shadow: 1px 1px 0px black;
     margin: 50px;
-    margin-top: 50px; }
+    margin-top: 50px;
+    width: 60%; }
 
 #historyPhoto {
   width: 300px;
@@ -233,9 +235,10 @@ section.containerDos {
 
 @media screen and (min-width: 768px) {
   .historyContainer {
-    height: auto; }
+    height: 90vh; }
     .historyContainer .historyItems {
-      flex-direction: row-reverse; }
+      flex-direction: row-reverse;
+      width: auto; }
   #historyPhoto {
     width: 700px;
     height: 500px; } }
@@ -259,8 +262,7 @@ section.containerDos {
   .racesContainer h1 {
     color: red;
     text-shadow: 1px 1px 0px white;
-    text-align: center;
-    font-size: x-large; }
+    text-align: center; }
   .racesContainer h3 {
     margin-bottom: 20px;
     color: white;
@@ -274,7 +276,7 @@ section.containerDos {
     text-shadow: 1px 1px 0px black;
     margin-top: 100px;
     margin: 50px;
-    width: 50%; }
+    width: 60%; }
   .racesContainer .racesImg {
     width: 300px;
     height: 200px;
@@ -304,14 +306,14 @@ section.containerDos {
   .driversContainer h1 {
     text-align: center;
     color: red;
-    text-shadow: 0.5px 0.5px 0px white;
-    font-size: x-large; }
+    text-shadow: 0.5px 0.5px 0px white; }
   .driversContainer #mvycp {
     margin-top: 30px;
     width: 400px;
     height: 250px; }
   .driversContainer .driversItems {
-    color: white; }
+    color: white;
+    width: 60%; }
     .driversContainer .driversItems h3 {
       color: red;
       text-shadow: 0.5px 0.5px 0px white;
@@ -320,11 +322,16 @@ section.containerDos {
     .driversContainer .driversItems h4 {
       color: red;
       text-shadow: 0.5px 0.5px 0px white;
-      margin-top: 40px; }
+      margin-top: 40px;
+      text-align: center; }
     .driversContainer .driversItems .maxStats li {
-      font-size: medium; }
+      font-size: medium;
+      text-align: center;
+      padding-right: 40px; }
     .driversContainer .driversItems .checoStats li {
-      font-size: medium; }
+      font-size: medium;
+      text-align: center;
+      padding-right: 40px; }
 
 /* media */
 @media screen and (min-width: 768px) {
@@ -352,8 +359,7 @@ section.containerDos {
     color: red;
     text-shadow: 1px 1px 0px white;
     margin-bottom: 30px;
-    text-align: center;
-    font-size: x-large; }
+    text-align: center; }
 
 .shopLink {
   color: red;
